@@ -103,7 +103,7 @@ Select
 PARSENAME(REPLACE(OwnerAddress, ',', '.') , 3),
 PARSENAME(REPLACE(OwnerAddress, ',', '.') , 2),
 PARSENAME(REPLACE(OwnerAddress, ',', '.') , 1)
-From PortfolioProject.dbo.NashvilleHousing
+From PortfolioProject.. NashvilleHousing
 -- PARSENAME works backwards on the object
 
 ALTER TABLE NashvilleHousing
@@ -131,7 +131,7 @@ Update NashvilleHousing
 
 Select *
 From 
-PortfolioProject.dbo.NashvilleHousing
+PortfolioProject.. NashvilleHousing
 
 
 --------------------------------------------------------------------------------------------------------------------------
@@ -141,7 +141,7 @@ PortfolioProject.dbo.NashvilleHousing
 
 SELECT DISTINCT(SoldAsVacant),
 		COUNT(SoldAsVacant)
-FROM PortfolioProject.dbo.NashvilleHousing
+FROM PortfolioProject.. NashvilleHousing
 GROUP BY SoldAsVacant
 ORDER BY 2
 
