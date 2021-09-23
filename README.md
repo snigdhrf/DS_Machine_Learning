@@ -1,4 +1,4 @@
-# About Me -
+# About Me 
 ## I am an Astrophysics graduate currently using Machine learning to explore real-life datasets
 I am a passionate aspiring data scientist who has broad and in-depth programming, statistics, mathematics, engineering and physics skills and I am using these skills to solve various real-life problems by using machine learning, data scrapping, and other types of data analytics and data visualization tools such as Python, TensorFlow, Keras, Tableau, etc. I have more than 3 years of experience in data analytics and predictive modeling.
 
