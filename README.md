@@ -10,4 +10,3 @@ The work largely comprises of :
 1. Machine Learning
 2. Artificial Neural Networks
 3. Structured Query Language (SQL)
-4. Exploratory data analysis using Seaborn
